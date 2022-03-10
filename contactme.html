@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" content="this paragraph gets displayed(in short form like : this para.........on google) when we search for this particular site on google">
+  <title>contactme</title>
+</head>
+
+<body>
+
+<h1>MY CONTACT DETAILS</h1>
+<P>himanshu</P>
+<p>lala@lala.com</p>
+<p>8765789</p>
+<hr>
+<!-- <form action="starter.html"> this atribute of action takes us to starter.html after clicking on submit button below -->
+<form action="mailto:info@londonappbrewery.com" method="post" enctype="text/plain"> <!-- here atribute action takes us to default mail client on our pc and mails to that address whatever we input below -->
+<!--above enctype has role in not displaying wierd symbols like %40 with messages that we are sending-->
+<label>MyName:</label>
+<input type="text" name="YourName"><br> <!--here name attribute has role of displaying "YourName" when email client opens up to send the message-->
+
+<label>Myemail:</label>
+<input type="email" name="Youremail"><br>
+
+<label>message:</label><br>
+<textarea name="Yourmessage" id="" cols="30" rows="10"></textarea><br>
+
+<input type="submit">
+
+</form>
+
+</body>
+
+</html>
